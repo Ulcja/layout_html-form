@@ -1,1 +1,19 @@
 /* styles go here */
+
+.groups {
+  margin-bottom: 20px;
+}
+
+.inputs {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.inputs_last {
+  display: block;
+  padding: 0;
+}
+
+.button_submit {
+  margin-bottom: 20px;
+}
