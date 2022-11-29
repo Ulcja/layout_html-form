@@ -1,9 +1,5 @@
 /* styles go here */
 
-.groups {
-  margin-bottom: 20px;
-}
-
 .inputs {
   display: block;
   padding-bottom: 10px;
@@ -14,6 +10,7 @@
   padding: 0;
 }
 
-.button_submit {
+.button_submit,
+.groups {
   margin-bottom: 20px;
 }

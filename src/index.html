@@ -109,24 +109,27 @@
 
         <legend>An interesting fact about you!</legend>
 
-        <label class="inputs">
+        <div class="inputs">
           Do you love cats?
-          <input
-            type="radio"
-            id="love_cat"
-            name="love_cat"
-            value="y"
-          >
-            Yes
-
-          <input
-            type="radio"
-            id="unlove_cat"
-            name="love_cat"
-            value="n"
-          >
-            No
-        </label>
+          <label>
+            <input
+              type="radio"
+              id="love_cat"
+              name="love_cat"
+              value="y"
+            >
+              Yes
+          </label>
+          <label>
+            <input
+              type="radio"
+              id="unlove_cat"
+              name="love_cat"
+              value="n"
+            >
+              No
+          </label>
+        </div>
 
         <label class="inputs">
           What is your favorite colour?
@@ -165,7 +168,7 @@
           <input
             type="range"
             id="rate"
-            name="rate_work"
+            name="rateWork"
             min="0"
             max="10"
           >
@@ -180,12 +183,12 @@
         <label class="inputs" for="comments">
           Comments:
           <textarea
-          class="fill_comments"
-          name="comments"
-          id="comments"
-          cols="20"
-          rows="2"
-          autocomplete="off"
+            class="fill_comments"
+            name="comments"
+            id="comments"
+            cols="20"
+            rows="2"
+            autocomplete="off"
          ></textarea>
         </label>
 
@@ -202,8 +205,6 @@
       <button class="button_submit" type="submit">
         Submit
       </button>
-
     </form>
-
   </body>
 </html>
